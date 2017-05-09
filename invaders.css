@@ -1,0 +1,49 @@
+*{
+			box-sizing: border-box;
+		}
+
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+
+		}
+
+		
+
+		#container{
+				position: absolute;
+				display: inline-flex;
+				float: left;
+				top: 0;
+				width: 100%;
+		}
+
+		#title{
+			background-color: #000000;
+			height: 20%;
+			width: 100%;
+			text-align: center;
+			z-index: 1000000;
+
+
+
+
+		}
+
+		#canvas{
+	
+
+
+		}
+		
+
+		.grid{
+			z-index: 1;
+			display: flex;
+			flex-wrap: wrap;
+			height: 100%;
+			width:100%;
+		}
+
+		
